@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as i,a4 as r}from"./chunks/framework.DLynBmSH.js";const f=JSON.parse('{"title":"Frosty RW","description":"","frontmatter":{},"headers":[],"relativePath":"rw.md","filePath":"rw.md","lastUpdated":null}'),o={name:"rw.md"},t=r("",12),n=[t];function l(s,c,d,p,u,m){return i(),a("div",null,n)}const h=e(o,[["render",l]]);export{f as __pageData,h as default};
