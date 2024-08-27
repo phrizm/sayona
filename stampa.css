@@ -1,0 +1,73 @@
+/* Use A4 paper in landscape orientation */
+@page {
+  size: A4 landscape;
+  margin: 20mm 30mm;
+  marks: crop cross;
+}
+  
+  @bottom-left {
+    content: counter(page);
+  }
+
+  h2 {
+    break-before: page;
+    font-size: 35px;
+    color: aqua;
+    margin: 48px 0 16px;
+    border-top: none;
+    padding-top: 24px;
+    letter-spacing: -0.02em;
+    line-height: 32px;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 6pt;
+  }
+
+  .vp-doc h2 {
+    margin: 48px 0 16px;
+    border-top: none;
+    padding-top: 24px;
+    letter-spacing: -0.02em;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+
+  .vp-doc p {
+    line-height: 28px;
+    font-size: 8pt;
+    color: #676767;
+}
+
+
+  .VPDocAside {
+visibility: hidden;
+  }
+
+
+  .VPLocalNav {
+    visibility: hidden;
+  }
+
+
+
+  .custom-block.danger {
+    border-color: red;
+    color: red;
+    background-color: red;
+}
+
+
+
+  .VPNavBar {
+    visibility: hidden;
+  }
+
+
+  .pager  {
+    visibility: hidden;
+  }
+
+
